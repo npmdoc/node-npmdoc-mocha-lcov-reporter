@@ -1,0 +1,278 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="https://github.com/StevenLooman/mocha-lcov-reporter#readme">mocha-lcov-reporter (v1.3.0)</a>
+</h1>
+<h4>LCOV reporter for Mocha</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.mocha-lcov-reporter">module mocha-lcov-reporter</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mocha-lcov-reporter.mocha-lcov-reporter">
+            function <span class="apidocSignatureSpan"></span>mocha-lcov-reporter
+            <span class="apidocSignatureSpan">(runner)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mocha-lcov-reporter.lcov">
+            function <span class="apidocSignatureSpan">mocha-lcov-reporter.</span>lcov
+            <span class="apidocSignatureSpan">(runner)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">mocha-lcov-reporter.</span>lcov.prototype</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.mocha-lcov-reporter.lcov">module mocha-lcov-reporter.lcov</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mocha-lcov-reporter.lcov.lcov">
+            function <span class="apidocSignatureSpan">mocha-lcov-reporter.</span>lcov
+            <span class="apidocSignatureSpan">(runner)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.mocha-lcov-reporter.lcov.prototype">module mocha-lcov-reporter.lcov.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mocha-lcov-reporter.lcov.prototype.onEnd">
+            function <span class="apidocSignatureSpan">mocha-lcov-reporter.lcov.prototype.</span>onEnd
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mocha-lcov-reporter.lcov.prototype.reportFile">
+            function <span class="apidocSignatureSpan">mocha-lcov-reporter.lcov.prototype.</span>reportFile
+            <span class="apidocSignatureSpan">(filename, data)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mocha-lcov-reporter.lcov.prototype.write">
+            function <span class="apidocSignatureSpan">mocha-lcov-reporter.lcov.prototype.</span>write
+            <span class="apidocSignatureSpan">(string)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.mocha-lcov-reporter" id="apidoc.module.mocha-lcov-reporter">module mocha-lcov-reporter</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.mocha-lcov-reporter.mocha-lcov-reporter" id="apidoc.element.mocha-lcov-reporter.mocha-lcov-reporter">
+        function <span class="apidocSignatureSpan"></span>mocha-lcov-reporter
+        <span class="apidocSignatureSpan">(runner)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function LCov(runner) {
+  var self = this;
+
+  runner.on('end', function() {
+      self.onEnd();
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mocha-lcov-reporter.lcov" id="apidoc.element.mocha-lcov-reporter.lcov">
+        function <span class="apidocSignatureSpan">mocha-lcov-reporter.</span>lcov
+        <span class="apidocSignatureSpan">(runner)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function LCov(runner) {
+  var self = this;
+
+  runner.on('end', function() {
+      self.onEnd();
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.mocha-lcov-reporter.lcov" id="apidoc.module.mocha-lcov-reporter.lcov">module mocha-lcov-reporter.lcov</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.mocha-lcov-reporter.lcov.lcov" id="apidoc.element.mocha-lcov-reporter.lcov.lcov">
+        function <span class="apidocSignatureSpan">mocha-lcov-reporter.</span>lcov
+        <span class="apidocSignatureSpan">(runner)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function LCov(runner) {
+  var self = this;
+
+  runner.on('end', function() {
+      self.onEnd();
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.mocha-lcov-reporter.lcov.prototype" id="apidoc.module.mocha-lcov-reporter.lcov.prototype">module mocha-lcov-reporter.lcov.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.mocha-lcov-reporter.lcov.prototype.onEnd" id="apidoc.element.mocha-lcov-reporter.lcov.prototype.onEnd">
+        function <span class="apidocSignatureSpan">mocha-lcov-reporter.lcov.prototype.</span>onEnd
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onEnd = function () {
+  // In a browser context, coverage will be in window.$jscoverage or window._$blanket.
+  var g = typeof(global) != 'undefined' ? global : window;
+  var cov = g._$jscoverage || g._$blanket;
+  if (!cov) {
+    console.error('mocha-lcov-reporter: No coverage data found, make sure your code is properly instrumented');
+    return;
+  }
+
+  for (var filename in cov) {
+    var data = cov[filename];
+    this.reportFile(filename, data);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mocha-lcov-reporter.lcov.prototype.reportFile" id="apidoc.element.mocha-lcov-reporter.lcov.prototype.reportFile">
+        function <span class="apidocSignatureSpan">mocha-lcov-reporter.lcov.prototype.</span>reportFile
+        <span class="apidocSignatureSpan">(filename, data)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">reportFile = function (filename, data) {
+  var self = this;
+
+  self.write('SF:' + filename + '\n');
+
+  data.source.forEach(function(line, num) {
+    // increase the line number, as JS arrays are zero-based
+    num++;
+
+    if (data[num] !== undefined) {
+      self.write('DA:' + num + ',' + data[num] + '\n');
+    }
+  });
+
+  self.write('end_of_record\n');
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mocha-lcov-reporter.lcov.prototype.write" id="apidoc.element.mocha-lcov-reporter.lcov.prototype.write">
+        function <span class="apidocSignatureSpan">mocha-lcov-reporter.lcov.prototype.</span>write
+        <span class="apidocSignatureSpan">(string)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">write = function (string) {
+    process.stdout.write(string);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
